@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(MacBook-AIR-1280.jpg);
+    background-size: cover;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li{list-style: none;
+    background-color: crimson;
+    width: 160px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+border: 1px solid white;
+text-align: center;
+}
+ul li a{
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: block;
+}
+ul li a:hover{
+background-color: brown;
+}
+ul li ul li{
+    display: none;
+}
+
+ul li:hover ul li
+{
+    display: block;
+}
+
+
+
+
+
+
+
